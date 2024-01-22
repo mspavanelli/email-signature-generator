@@ -46,7 +46,7 @@ export function App() {
   const values = form.watch();
 
   async function copy() {
-    const element = document.getElementById("signature");
+    const element = document.getElementById("signature")!;
     const range = document.createRange();
     range.selectNode(element);
     const selection = window.getSelection();
