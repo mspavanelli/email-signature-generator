@@ -19,7 +19,6 @@ import {
 } from "@/components/ui/form";
 import { Separator } from "@/components/ui/separator";
 import { Signature } from "@/components/Signature";
-import { Example } from "@/components/Example";
 
 const formSchema = z.object({
   name: z.string(),
