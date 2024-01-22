@@ -155,15 +155,15 @@ export function App() {
             <Separator />
 
             <div className="mt-4 flex w-full justify-between">
-              <Button className="w-28" onClick={copy}>
-                Copiar
-              </Button>
               <Button
                 variant="secondary"
                 className="w-28"
                 onClick={() => form.reset()}
               >
                 Apagar
+              </Button>
+              <Button className="w-28" onClick={copy}>
+                Copiar
               </Button>
             </div>
           </CardFooter>
