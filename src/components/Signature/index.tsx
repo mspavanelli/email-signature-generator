@@ -6,13 +6,7 @@ interface Props {
   linkedin?: string;
 }
 
-export function Signature({
-  email = "",
-  jobTitle = "Comercial",
-  linkedin = "kdofk",
-  name = "Nome",
-  phone = "932",
-}: Props) {
+export function Signature({ email, jobTitle, linkedin, name, phone }: Props) {
   const template = `
   <div id=":1ql" class="a3s aiL ">
    <div dir="ltr">
