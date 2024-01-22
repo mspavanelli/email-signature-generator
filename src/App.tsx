@@ -169,7 +169,7 @@ export function App() {
           </CardFooter>
         </Card>
       </div>
-      <Toaster position="top-center" />
+      <Toaster position="bottom-center" />
     </>
   );
 }
