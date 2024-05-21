@@ -10,7 +10,6 @@ export function Signature({ email, jobTitle, linkedin, name, phone }: Props) {
   const template = `
   <div id=":1ql" class="a3s aiL ">
    <div dir="ltr">
-      <div class="adM"><br clear="all"></div>
       <div dir="ltr" class="gmail_signature" data-smartmail="gmail_signature">
          <div dir="ltr">
             <div style="color:rgb(0,0,0);font-size:medium;float:left;font-family:Arial,Geneva,Tahoma,sans-serif;width:206px;padding:0px;vertical-align:top">

@@ -141,7 +141,7 @@ export function App() {
             </Form>
           </CardContent>
           <Separator />
-          <CardFooter className="flex flex-col items-start">
+          <CardFooter className="flex flex-col items-start pt-6">
             <div id="signature">
               <Signature
                 email={values.email}
